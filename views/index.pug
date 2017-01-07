@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    .main.container
+        .row
+            .col-md-6.col-md-offset-3
+                h1.display-4.m-b-2 My Login Form
+                form(method='POST' action='/login')
+                    div.form-group
+                        input#username.form-control(type='text', placeholder='Username' name='name')
+                        input#password.form-control(type='password', placeholder='Password' name='password')
+                    button#btn_search.btn.btn-primary(type='submit') Sign In

@@ -1,0 +1,35 @@
+{
+  "name": "HackersHall",
+  "version": "1.0.0",
+  "description": "A web app that shows number of breakins at major sites by hackers over a period of time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js --presets es2015,stage-2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreogara/HackersHall.git"
+  },
+  "author": "Andre Ogara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreogara/HackersHall/issues"
+  },
+  "homepage": "https://github.com/andreogara/HackersHall",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "bcrypt": "1.0.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.6",
+    "node-gyp": "3.4.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.1.6",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0"
+  }
+}

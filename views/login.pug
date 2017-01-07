@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    .main.container
+        .row
+            .col-md-6.col-md-offset-3
+                h1.display-4.m-b-2 My location
+                // register form
+                form(method='POST' action='/register')
+                    div.form-group
+                        input#txt_search.form-control(type='text', placeholder='Current Location' name='name')
+                    button#btn_search.btn.btn-primary(type='submit') Search
+    div#map
